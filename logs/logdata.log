@@ -1,0 +1,1031 @@
+2023-04-26 11:17:12,570 Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2023-04-26 11:17:17,994 Creating Table In DataBase...
+2023-04-26 11:17:18,263 Table Already Created...
+2023-04-26 11:17:18,294  * Debugger is active!
+22023-04-26 11:27:41,827 Heartbeat failed for connection (217575472) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 11:27:41,828 Heartbeat failed for connection (217450160) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 11:27:41,893 Heartbeat failed for connection (217577424) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 11:27:41,898 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 11:27:41,903 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 11:27:41,904 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+22023-04-26 11:28:30,723 Heartbeat failed for connection (211285680) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 11:28:30,723 Heartbeat failed for connection (211398704) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 11:28:30,723 Heartbeat failed for connection (211400176) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 11:28:30,723 Heartbeat failed for connection (211285264) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 11:28:30,724 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 11:28:30,725 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 11:28:30,725 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 11:28:36,853 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 1.74 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 11:28:36,853 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 2.04 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 11:28:41,861 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 2.08 seconds: [Errno None] Tried connecting to [('34.148.84.89', 29042)]. Last error: timed out
+2023-04-26 11:28:43,681 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 3.84 seconds: [Errno None] Tried connecting to [('34.139.237.127', 29042)]. Last error: timed out
+2023-04-26 11:28:46,871 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 4.28 seconds: [Errno None] Tried connecting to [('35.237.148.58', 29042)]. Last error: timed out
+2023-04-26 11:28:47,614 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 9.04 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 11:28:49,037 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 4.12 seconds: [Errno None] Tried connecting to [('35.237.148.58', 29042)]. Last error: timed out
+2023-04-26 11:28:51,193 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 8.72 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 11:28:53,206 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 9.04 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 11:28:56,695 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 13.6 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 11:29:01,802 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 11:29:01,802 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare 2023-04-26 11:29:02,579 Successful2023-04-26 11:29:03,665 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 11:29:06,166 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 11:29:06,167 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare 2023-04-26 11:30:03,374 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 11:30:03,374 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 11:30:06,781 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 11:30:11,971 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 11:30:11,972 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 11:30:15,177 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:19:49,848 Heartbeat failed for connection (224646512) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:19:49,849 Heartbeat failed for connection (217577296) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:19:49,849 Heartbeat failed for connection (224481680) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:19:49,850 Heartbeat failed for connection (224645808) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:19:49,852 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:19:49,853 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 12:19:49,855 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 12:19:52,605 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:19:52,605 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:19:52,607 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:19:52,608 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:19:54,323 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 12:19:54,324 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 12:19:57,114 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:19:57,523 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c2023-04-26 12:21:59,778 10.7.13.101 - - [26/Apr/2023 12:21:59] "GET / HTTP/1.1" 200 -
+2023-04-26 12:22:15,404  
+2023-04-26 12:22:15,404 Collecting Data From User...
+2023-04-26 12:22:15,405 Data Collected From User...
+2023-04-26 12:22:15,405 Inserting Data To DataBase...
+2023-04-26 12:22:16,035 Data Inserted : uuid(),3,100.3358,'Type 1',0.380670,'Low Fat','D2023-04-26 12:29:29,028 Heartbeat failed for connection (217577104) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:29:29,029 Heartbeat failed for connection (22520208) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:29:29,029 Heartbeat failed for connection (224580240) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:29:29,030 Heartbeat failed for connection (22504400) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:29:29,032 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:29:29,033 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 12:29:29,034 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 12:29:29,037 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:30,041 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 1.86 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:30,043 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 1.96 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:30,156 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 2.0 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:31,957 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 4.48 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:32,072 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 3.88 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:32,185 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 4.44 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:36,014 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 8.96 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:36,461 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 7.36 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:36,701 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 8.8 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:43,860 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 18.24 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:44,994 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 14.4 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:45,560 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 15.04 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:29:59,524 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 33.28 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:30:00,616 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 36.8 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:30:02,184 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 36.8 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:30:36,339 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:30:36,340 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:30:38,208 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:30:41,146 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:30:41,149 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7752023-04-26 12:31:08,204 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 121.6 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:31:11,329 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 145.92 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:31:28,896 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 138.24 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:33:11,469 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:33:11,470 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:33:13,989 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:33:49,317 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 284.16 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:33:53,605 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 859, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:33:54,323 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 268.8 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:34:02,049 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:34:09,600 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('35.237.148.58', 29042)]. Last error: _ssl.c:761: The handshake operation timed out
+2023-04-26 12:34:18,588 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:34:48,345 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:34:54,462 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 859, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:35:15,987 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('34.139.237.127', 29042)]. Last error: timed out
+2023-04-26 12:35:22,095 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('34.148.84.89', 29042)]. Last error: timed out
+2023-04-26 12:35:24,254 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:35:24,942 Heartbeat failed for connection (14052400) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:35:24,944 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:35:27,735 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:35:27,736 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:35:30,409 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:35:34,260 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:38:26,505 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 12:38:26,506 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 12:38:29,672 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:38:36,964 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:38:36,965 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:38:40,737 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:44:02,771 Heartbeat failed for connection (14957200) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:44:14,835 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:14,836 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:14,840 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:14,843 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:14,846 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:14,849 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:15,991 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:15,995 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:15,999 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:17,921 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:17,925 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:17,928 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:22,335 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:22,338 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:22,342 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,373 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,377 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,380 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:37,220 Heartbeat failed for connection (15437136) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:44:38,482 Heartbeat failed for connection (14066416) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:44:38,769 Heartbeat failed for connection (14077808) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:44:38,770 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:44:38,771 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 12:44:38,772 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 12:44:39,829 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 2.28 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:39,829 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 2.2 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:39,829 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 1.84 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:41,736 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 3.48 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:42,059 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 3.6 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:42,173 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 4.36 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:45,326 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 8.56 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:45,667 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 7.92 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:46,565 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 7.6 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:53,711 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 15.04 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:53,919 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 14.72 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:54,257 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 18.24 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:20,804 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 33.28 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:20,805 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 33.92 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:20,806 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 30.08 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:50,923 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 72.96 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:54,195 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 67.84 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:54,759 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 60.8 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:00,571 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 136.96 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:47:02,131 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 143.36 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:03,920 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 124.16 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:49:10,267 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 12:49:10,267 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 12:49:12,363 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:49:16,755 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:49:20,759 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+ "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:32:32,412 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:32:32,413 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:32:36,700 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 859, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:32:37,418 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 17.44 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:32:41,717 Failed to create connection pool for new host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3175, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra\pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 859, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:32:43,658 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('34.148.84.89', 29042)]. Last error: _ssl.c:761: The handshake operation timed out
+2023-04-26 12:32:45,251 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:32:45,252 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:32:48,531 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:32:59,374 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:32:59,374 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:33:04,926 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('34.139.237.127', 29042)]. Last error: _ssl.c:761: The handshake operation timed out
+2023-04-26 12:33:04,958 Failed to create connection pool for new host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3175, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra\pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 917, in cassandra.connection.Connection._connect_socket
+OSError: [Errno None] Tried connecting to [('34.148.84.89', 29042)]. Last error: _ssl.c:761: The handshake operation timed out
+2023-04-26 12:33:08,540 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:33:08,540 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:33:11,428 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:35:29,191 Heartbeat failed for connection (22829552) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:35:29,194 Heartbeat failed for connection (22177808) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:35:29,196 Heartbeat failed for connection (22281168) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:35:29,198 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 12:35:29,201 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 12:35:29,202 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:35:33,131 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 12:35:33,132 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 12:35:33,970 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:35:35,435 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:35:35,436 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:35:38,508 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:35:38,508 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:35:45,121 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:35:47,123 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:35:47,150 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:36:06,830 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:36:12,544 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:44:29,382 Heartbeat failed for connection (23234800) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:44:29,384 Heartbeat failed for connection (23130256) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:44:29,384 Heartbeat failed for connection (23233136) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:44:29,385 Heartbeat failed for connection (224605200) to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:44:29,387 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 has been marked down
+2023-04-26 12:44:29,388 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 has been marked down
+2023-04-26 12:44:29,389 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 has been marked down
+2023-04-26 12:44:29,407 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,405 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 2.12 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,517 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 1.82 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:30,519 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 2.12 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:32,427 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 4.48 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:32,541 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 3.4 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:32,654 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 3.56 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:36,053 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 8.48 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:36,256 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 7.36 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:36,934 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 6.88 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:43,675 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 15.52 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:43,900 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 16.48 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:44,591 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 15.2 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:59,271 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 29.76 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:44:59,844 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 34.24 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:00,483 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 32.64 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:29,100 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, scheduling retry in 60.8 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:33,158 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, scheduling retry in 62.72 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:45:34,160 Error attempting to reconnect to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, scheduling retry in 55.68 seconds: [Errno 11001] getaddrinfo failed
+2023-04-26 12:46:31,863 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526, marking node up if it isn't already
+2023-04-26 12:46:31,863 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526 may be up; will prepare queries and open connection pool
+2023-04-26 12:46:33,295 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:46:33,295 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:46:36,771 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526
+2023-04-26 12:46:38,156 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:46:41,773 Failed to create connection pool for new host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3175, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra\pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 859, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+2023-04-26 12:46:42,408 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769, marking node up if it isn't already
+2023-04-26 12:46:42,409 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769 may be up; will prepare queries and open connection pool
+2023-04-26 12:46:46,851 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769
+2023-04-26 12:46:47,862 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:46:49,771 Successful reconnection to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248, marking node up if it isn't already
+2023-04-26 12:46:49,771 Host 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248 may be up; will prepare queries and open connection pool
+2023-04-26 12:46:54,544 Connection pools established for node 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248
+2023-04-26 12:46:57,201 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+2023-04-26 12:46:57,204 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:46:57,206 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:46:59,445 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:46:59,550 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:46:59,554 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:00,652 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:00,657 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:00,659 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:02,988 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:02,991 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:02,994 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:07,693 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:cf639ba0-352a-42bd-b918-e70ff2eba769:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:07,695 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:07,697 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:456685c5-dc67-4532-a211-57171acfc526:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 850, in cassandra.connection.Connection.factory
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cassandra\io\asyncorereactor.py", line 347, in __init__
+    self._connect_socket()
+  File "cassandra\connection.py", line 893, in cassandra.connection.Connection._connect_socket
+  File "cassandra\connection.py", line 880, in cassandra.connection.Connection._get_socket_addresses
+  File "cassandra\connection.py", line 277, in cassandra.connection.SniEndPoint.resolve
+  File "cassandra\connection.py", line 272, in cassandra.connection.SniEndPoint.resolve
+  File "C:\Users\vishe\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2023-04-26 12:47:20,615 [control connection] Error connecting to 938a472f-df02-4711-b41a-d00762d1f9b5-us-east1.db.astra.datastax.com:29042:f6a1ab23-7757-4271-83c0-b0916af6c248:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
